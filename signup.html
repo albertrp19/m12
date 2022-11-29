@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    <title>Vinilicius</title>
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="js/header.js"></script>
+  </head>
+
+  <body>
+
+    <header>
+      <div class="wrapper">
+        <div class="logo"><a href="index.html">Vinilicius</a></div>
+        <nav>
+          <a href="index.html">Inicio</a>
+          <a href="login.html">Iniciar Sesión</a>
+        </nav>
+      </div>
+    </header>
+
+    <div id="form">
+        <h1>Registrate</h1>
+        <form action="signup.php" method="POST">
+          <input name="email" type="text" placeholder="Enter your email">
+          <input name="password" type="password" placeholder="Enter your Password">
+          <input name="confirm_password" type="password" placeholder="Confirm Password">
+          <input type="submit" value="Submit">
+        </form>
+    </div>
+  </body>
+
+</html>
